@@ -37,7 +37,7 @@ export class MoviesService {
         "Gil Bellows"
       ],
       hours: ["1","2"],
-      room: 2
+      room: 1
     }, {
       id: 2,
       title: "The Godfather",
@@ -77,7 +77,7 @@ export class MoviesService {
         "Talia Shire"
       ],
       hours: ["1","2"],
-      room: 2
+      room: 3
     }, {
       id: 4,
       title: "The Dark Knight",
@@ -97,7 +97,7 @@ export class MoviesService {
         "Gary Oldman"
       ],
       hours: ["1","2"],
-      room: 2
+      room: 4
     }, 
     {
       id: 5,
@@ -118,7 +118,7 @@ export class MoviesService {
         "Embeth Davidtz"
       ],
       hours: ["1","2"],
-      room: 2
+      room: 5
     }
   ];
 

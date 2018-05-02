@@ -10,7 +10,7 @@ import { RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home',  component: MyHomeComponent },
+  { path: 'home',  component: MyHomeComponent }, 
   { path: 'movie/:id', component: MyMovieComponent }
 ];
 
