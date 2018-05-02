@@ -1,3 +1,17 @@
-<p>
-  my-movie works!
-</p>
+<div>
+  <h1>{{movie.title}}</h1>
+  <ul>
+    Genres:
+    <li *ngFor="let genre of movie.genres">{{genre}}</li>
+  </ul>
+
+  <h3>Year: {{movie.year}}</h3>
+  <h3>Directo: {{movie.director}}</h3>
+  <ul>
+    Actors:
+    <li *ngFor="let actor of movie.actors">{{actor}}</li>
+  </ul>
+  <p>{{movie.synopsis}}</p>
+  <img [src]="movie.poster" [alt]="movie.title">
+</div>
+{{movie.title}}
