@@ -1,5 +1,5 @@
 <div class="container">
-  <div *ngFor="let movie of moviesArray">
+  <div *ngFor="let movie of moviesArray" class="movie-item">
     <p>ROOM {{movie.room}}</p>
     <a [routerLink]="['/movie',movie.id]">
       <img [src]="movie.poster" alt="">

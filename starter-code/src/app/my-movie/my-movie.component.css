@@ -1,0 +1,23 @@
+.movie-container {
+  display: flex;
+}
+
+.movie-poster {
+  text-align: center;
+}
+
+.movie-poster img {
+  max-width: 80%;
+}
+
+.button-container {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.home-button {
+  background: blue;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
